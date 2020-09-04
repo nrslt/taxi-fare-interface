@@ -1,7 +1,7 @@
 const algoliaPlacesApiAppId = 'plU4N8HG6QWK';
 const algoliaPlacesApiKey = '1131438afb49f60a48ed468c5af189b8';
 const mapboxApiToken = 'pk.eyJ1IjoibnJzbHQiLCJhIjoiY2tlbzI1MjFoMHprdDMybzhtYXhxdHNuYyJ9.cKtNGs5yXcuZYIoli6hAWA';
-const taxiFareApiUrl = 'https://nrousstaxiapp.herokuapp.com/predict_fare';
+const taxiFareApiUrl = 'https://fmtaxifare.herokuapp.com/predict_fare';
 
 const displayMap = (start, stop) => {
   mapboxgl.accessToken = mapboxApiToken;
